@@ -13,7 +13,7 @@ header{
     gap: 1rem;
     color: var(--color-secondary);
     z-index: 1;
-    font-size: 8vw;
+    font-size: 5vw;
 }
 
 main{
@@ -58,7 +58,7 @@ h1::before{
 }
 
 .hero-container h2{
-    font-size: 8vw;
+    font-size: 10vw;
     text-align: center;
     color: var(--color-secondary);
 }
@@ -78,4 +78,17 @@ h1::before{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+@media (min-width: 768px){
+    .hero-container p{
+        display: block;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+    .pikachu{
+        width: 65vw;
+        top: 47%;
+    }
 }
